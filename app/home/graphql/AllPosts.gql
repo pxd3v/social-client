@@ -1,0 +1,15 @@
+query AllPosts {
+  posts {
+    id
+    content
+    mentions {
+      user {
+        username
+      }
+    }
+    replies {
+      id
+      content
+    }
+  }
+}
